@@ -59,7 +59,7 @@ function Register() {
 
         {/* Left Section */}
         <div
-          className="col-lg-6 d-none d-lg-flex flex-column justify-content-center align-items-center text-white p-5 auth-hero"
+          className="col-lg-6 d-flex flex-column justify-content-center align-items-center text-white p-5 auth-hero"
           style={{
             background: "linear-gradient(135deg,#2563EB,#1E3A8A)",
           }}

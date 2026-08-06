@@ -56,9 +56,30 @@ body {
 }
 
 @media (max-width: 991.98px) {
+  .auth-hero {
+    min-height: auto;
+    padding: 2rem 1rem !important;
+  }
+
+  .auth-hero .auth-illustration {
+    width: 130px;
+    margin-bottom: 1rem !important;
+  }
+
+  .auth-hero .auth-title {
+    font-size: 1.65rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .auth-hero p {
+    width: 100% !important;
+    max-width: 430px;
+    margin-bottom: 0;
+    font-size: 0.95rem !important;
+  }
+
   .auth-content {
-    min-height: 100vh;
-    align-items: flex-start !important;
+    min-height: auto;
     padding-top: 2rem;
   }
 }
