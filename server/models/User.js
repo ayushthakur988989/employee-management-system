@@ -13,6 +13,8 @@ const userSchema = new mongoose.Schema(
       minlength: [8, "Password must be at least 8 characters long."],
       select: false,
     },
+    loginOtpHash: { type: String, select: false },
+    loginOtpExpiresAt: { type: Date, select: false },
   },
   { timestamps: true }
 );

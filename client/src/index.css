@@ -6,6 +6,7 @@ body,
 
 body {
   min-width: 320px;
+  background: #f5f8ff;
 }
 
 .auth-page {
@@ -14,6 +15,7 @@ body {
 
 .auth-hero {
   min-height: 100vh;
+  background: radial-gradient(circle at 25% 20%, #4d8dff 0, transparent 36%), linear-gradient(145deg, #0c1c4f, #153db2 55%, #0b8db9) !important;
 }
 
 .auth-illustration {
@@ -26,12 +28,31 @@ body {
 
 .auth-content {
   padding: 2rem 1rem;
+  background: linear-gradient(135deg, #edf5ff, #f8f3ff);
 }
 
 .auth-card {
   width: 100%;
   max-width: 500px;
   border-radius: 20px;
+  background: rgba(255, 255, 255, 0.78) !important;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.75) !important;
+}
+
+.forgot-page {
+  background: radial-gradient(circle at 20% 15%, #c5d7ff, transparent 35%), linear-gradient(135deg, #eff6ff, #f8f2ff 60%, #e9fbff);
+}
+
+.otp-card {
+  max-width: 480px;
+}
+
+.otp-input {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.45rem;
 }
 
 @media (max-width: 991.98px) {
